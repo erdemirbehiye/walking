@@ -35,9 +35,12 @@
           Graph.cameraPosition(
             newPos, // new position
             node, // lookAt ({ x, y, z })
-            3000  // ms transition duration
+            1500  // ms transition duration
           );
-        });
+        })
+        .linkDirectionalParticles("value")
+        .linkDirectionalParticleSpeed(d => d.value * 0.001)
+        .linkWidth(3);
 
     // Spread nodes a little wider
     Graph.d3Force('charge').strength(-120);
