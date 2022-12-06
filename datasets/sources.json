@@ -1,0 +1,30 @@
+{
+    "nodes": [
+      {"id": "Behi", "group": 0},
+      {"id": "Rana", "group": 0},
+      {"id": "Cemre", "group": 0},
+      {"id": "Bager Akbay", "group": 0},
+      {"id": "Meme", "group": 3},
+      {"id": "The Selfish Gene", "group": 1},
+      {"id": "Richard Dawkins", "group": 2},
+      {"id": "Svetlena", "group": 0},
+      {"id": "Morphology of the Folktale", "group": 0},
+      {"id": "IC", "group": 4}
+
+    
+    ],
+    "links": [
+      {"source": "Behi", "target": "Rana", "value": 1},
+      {"source": "Behi", "target": "Cemre", "value": 1},
+      {"source": "Behi", "target": "Bager Akbay", "value": 1},
+      {"source": "Bager Akbay", "target": "Meme", "value": 1},
+      {"source": "Meme", "target": "The Selfish Gene", "value": 1},
+      {"source": "The Selfish Gene", "target": "Richard Dawkins", "value": 1},
+      {"source": "Behi", "target": "Svetlena", "value": 1},
+      {"source": "Svetlena", "target": "Morphology of the Folktale", "value": 1},
+      {"source": "Bager Akbay", "target": "Morphology of the Folktale", "value": 1},
+      {"source": "Behi", "target": "IC", "value": 1}
+     
+    ]
+  }
+  
