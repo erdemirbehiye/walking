@@ -1,4 +1,5 @@
 {
+  // {"id": "", "group": 0},
     "nodes": [
       {"id": "Behi", "group": 0},
       {"id": "Rana", "group": 0},
@@ -153,11 +154,25 @@
       {"id": "Making Kin Not Population", "group": 1},
       {"id": "Gestalt Switches in the Idea of Context. A Macro Dimension of the World for Every Theory of Action", "group": 5},
       {"id": "The Parasite", "group": 1},
-      {"id": "Situated Knowledge", "group": 5}
+      {"id": "Situated Knowledge", "group": 5},
+      {"id": "A Declaration of the Independence of Cyberspace", "group":5},
+      {"id": "Nick Dyer-Witheford", "group": 0},
+      {"id": "The Tragedy of the Commons: How Elinor Ostrom Solved One of Life’s Greatest Dilemmas", "group": 6},
+      {"id": "The Tragedy of the Commons", "group": 5},
+      {"id": "Governing the Commons", "group": 1},
+      {"id": "Scientists Use Machine Learning To Measure Creativity With a Simple Word Test", "group": 6},
+      {"id": "Speculative Everything", "group": 1},
+      {"id": "Trouble at the Interface, or the Identity Crisis of Interactive Art", "group": 5},
+      {"id": "Excavating AI", "group":5},
+      {"id": "Trevor Paglen", "group":0},
+      {"id": "Kate Crawford", "group":0}
+      
 
-
-
+      
     ],
+
+    // {"source": "", "target": "", "value": 1},
+
     "links": [
       {"source": "Behi", "target": "Rana", "value": 1},
       {"source": "Behi", "target": "Cemre", "value": 1},
@@ -329,8 +344,24 @@
       {"source": "Gestalt Switches in the Idea of Context. A Macro Dimension of the World for Every Theory of Action", "target": "A BESTIARY OF THE ANTHROPOCENE", "value": 1},
       {"source": "The Parasite", "target": "A BESTIARY OF THE ANTHROPOCENE", "value": 1},
       {"source": "Donna Haraway", "target": "Situated Knowledge", "value": 1},
-      {"source": "Data Science as Machinic Neoplatonism", "target": "Situated Knowledge", "value": 1}
-      
+      {"source": "Data Science as Machinic Neoplatonism", "target": "Situated Knowledge", "value": 1},
+      {"source": "IC", "target": "Matthias", "value": 1},
+      {"source": "Crypto-Commonists and Crypto-Libertarians", "target": "A Declaration of the Independence of Cyberspace", "value": 1},
+      {"source": "Crypto-Commonists and Crypto-Libertarians", "target": "Nick Dyer-Witheford", "value": 1},
+      {"source": "The TAO of the DAO", "target": "The Tragedy of the Commons: How Elinor Ostrom Solved One of Life’s Greatest Dilemmas", "value": 1},
+      {"source": "The Tragedy of the Commons: How Elinor Ostrom Solved One of Life’s Greatest Dilemmas", "target": "The Tragedy of the Commons", "value": 1},
+      {"source": "The Tragedy of the Commons: How Elinor Ostrom Solved One of Life’s Greatest Dilemmas", "target": "Governing the Commons", "value": 1},
+      {"source": "Manuela", "target": "Scientists Use Machine Learning To Measure Creativity With a Simple Word Test", "value": 1},
+      {"source": "Julian Stadon", "target": "Speculative Everything", "value": 1},
+      {"source": "Manuela", "target": "Trouble at the Interface, or the Identity Crisis of Interactive Art", "value": 1},
+      {"source": "Erkki Huhtamo", "target": "Trouble at the Interface, or the Identity Crisis of Interactive Art", "value": 1},
+      {"source": "Julian Stadon", "target": "Speculative Everything", "value": 1},
+      {"source": "César Escudero Andaluz", "target": "A Hacker Manifesto", "value": 1},
+      {"source": "Manuela", "target": "Trevor Paglen", "value": 1},
+      {"source": "Trevor Paglen", "target": "Excavating AI", "value": 1},
+      {"source": "Behi", "target": "Kate Crawford", "value": 1},
+      {"source": "Kate Crawford", "target": "Excavating AI", "value": 1}
+
       
     ]
   }
