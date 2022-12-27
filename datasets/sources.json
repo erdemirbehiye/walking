@@ -1,5 +1,4 @@
 {
-  // {"id": "", "group": 0},
     "nodes": [
       {"id": "Behi", "group": 0},
       {"id": "Rana", "group": 0},
@@ -169,8 +168,6 @@
       {"id": "A Hacker Manifesto", "group":1}
       
     ],
-
-    // {"source": "", "target": "", "value": 1},
 
     "links": [
       {"source": "Behi", "target": "Rana", "value": 1},
